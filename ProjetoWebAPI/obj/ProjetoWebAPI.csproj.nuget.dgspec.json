@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ruan9\\source\\repos\\ProjetoWebAPI\\ProjetoWebAPI\\ProjetoWebAPI.csproj": {}
+    "C:\\Users\\Ruan9\\OneDrive\\Área de Trabalho\\WEBTESTEAUTHENTICATION\\ProjetoWebAPI\\ProjetoWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ruan9\\source\\repos\\ProjetoWebAPI\\ProjetoWebAPI\\ProjetoWebAPI.csproj": {
+    "C:\\Users\\Ruan9\\OneDrive\\Área de Trabalho\\WEBTESTEAUTHENTICATION\\ProjetoWebAPI\\ProjetoWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ruan9\\source\\repos\\ProjetoWebAPI\\ProjetoWebAPI\\ProjetoWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Ruan9\\OneDrive\\Área de Trabalho\\WEBTESTEAUTHENTICATION\\ProjetoWebAPI\\ProjetoWebAPI.csproj",
         "projectName": "ProjetoWebAPI",
-        "projectPath": "C:\\Users\\Ruan9\\source\\repos\\ProjetoWebAPI\\ProjetoWebAPI\\ProjetoWebAPI.csproj",
+        "projectPath": "C:\\Users\\Ruan9\\OneDrive\\Área de Trabalho\\WEBTESTEAUTHENTICATION\\ProjetoWebAPI\\ProjetoWebAPI.csproj",
         "packagesPath": "C:\\Users\\Ruan9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ruan9\\source\\repos\\ProjetoWebAPI\\ProjetoWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Ruan9\\OneDrive\\Área de Trabalho\\WEBTESTEAUTHENTICATION\\ProjetoWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.10, )"
@@ -68,6 +72,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "XAct.Core.PCL": {
+              "target": "Package",
+              "version": "[0.0.5014, )"
             }
           },
           "imports": [

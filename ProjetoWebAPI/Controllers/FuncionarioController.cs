@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProjetoWebAPI.Models;
 using ProjetoWebAPI.Service.FuncionarioService;
@@ -16,7 +17,7 @@ namespace ProjetoWebAPI.Controllers
         }
 
 
-
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<ServiceResponse<List<FuncionarioModel>>>> GetFuncionarios()
         {

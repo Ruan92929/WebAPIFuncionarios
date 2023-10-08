@@ -9,6 +9,7 @@ namespace ProjetoWebAPI.DataContext
         { }
 
        public DbSet<FuncionarioModel> Funcionarios { get; set; }
+       public DbSet<User> Usuários { get; set; }
     }
 
 }

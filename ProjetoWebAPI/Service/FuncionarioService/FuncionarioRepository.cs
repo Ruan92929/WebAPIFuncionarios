@@ -4,12 +4,12 @@ using ProjetoWebAPI.Models;
 
 namespace ProjetoWebAPI.Service.FuncionarioService
 {
-    public class FuncionarioService : IFuncionarioInterface
+    public class FuncionarioRepository : IFuncionarioInterface
     {
 
         //Injeção de dependência
         private readonly ApplicationDbContext _context;
-        public FuncionarioService(ApplicationDbContext context) 
+        public FuncionarioRepository(ApplicationDbContext context) 
         { 
             _context = context;
         }
