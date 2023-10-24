@@ -27,7 +27,7 @@ namespace ProjetoWebAPI.Service.TokenService.Authentication
             var hashPassword = Encryption.HashSha1(password);
 
             if (user.Password != hashPassword)
-                throw new Exception("Usuário inválido");
+                throw new Exception("Password inválido");
 
             return user;
         }

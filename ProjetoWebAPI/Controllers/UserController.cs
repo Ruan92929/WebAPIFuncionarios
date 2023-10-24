@@ -21,7 +21,7 @@ namespace ProjetoWebAPI.Controllers
 
 
         [HttpPost]
-        [Route("LoginV1")]
+        [Route("Authentication")]
         public async Task<ActionResult<dynamic>> AuthenticateAsync([FromBody] User model)
         {
 
@@ -30,7 +30,7 @@ namespace ProjetoWebAPI.Controllers
             var token = TokenService.GenerateToken(User);
 
 
-            return new {token = token };
+            return new {text = "Autênticado com sucesso!",token = token };
         }
 
         [HttpPost]
